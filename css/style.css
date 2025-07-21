@@ -173,7 +173,7 @@ body {
   overflow: hidden;
 }
 
-.wrapper > main {
+.wrapper .page {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -4213,7 +4213,7 @@ h3 {
 }
 
 @media (max-width: 47.99875em) {
-  .wrapper > main {
+  .wrapper .page {
     padding: 3.75rem 0rem 0rem 0rem;
   }
 
@@ -4735,7 +4735,7 @@ h3 {
     --container-padding: 1.125rem;
   }
 
-  .wrapper > main {
+  .wrapper .page {
     padding: 1.875rem 0rem 0rem 0rem;
   }
 
